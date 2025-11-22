@@ -13,7 +13,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Shadcn Starter',
+  title: {
+    default: 'ACME',
+    template: '%s | ACME',
+  },
   description: 'A modern Next.js starter template with Shadcn UI and Biome.',
 };
 
