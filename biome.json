@@ -22,7 +22,8 @@
       "!.pnp.*",
       "!README.md",
       "!pnpm-lock.yaml",
-      "!package-lock.json"
+      "!package-lock.json",
+      "!src/components/ui"
     ]
   },
   "formatter": {
